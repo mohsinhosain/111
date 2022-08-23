@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachelor Monthly Calculator</title>
+
+</head>
+
+<body>
+    <main>
+
+        <div class="grid grid-cols-2 gap-4">
+            <div class="col-span-2">
+                <h1 class="text-4xl font-semibold font-mono text-center">Bachelor Monthly Calculator</h1>
+            </div>
+            <div class="w-11/12 mx-3 "><img class="rounded-md" src="calculator-background-05.jpg" alt="">
+            </div>
+            <div class="text-center bg-gray-100 py-3">
+                <h3 class="text-2xl">Capital</h3>
+                <label for="income">Income:</label>
+                <input class="bg-gray-200  w-48 border ml-1" type="text" name="" id="income">
+                <h3 class="text-2xl mb-3">Expenses</h3>
+                <label class="block " for="Bua">Bua:
+                    <input class="bg-gray-200  border mb-2" type="text" name="" id="Bua">
+                </label>
+                <label class="block " for="Cloth">Cloth:
+                    <input class="bg-gray-200  border mb-2" type="text" name="" id="Cloth">
+                </label>
+                <label class="block " for="Semester">Semester:
+                    <input class="bg-gray-200  border mb-2" type="text" name="" id="Semester">
+                </label>
+                <button id="calculate"
+                    class="text-xl bg-cyan-700 text-white p-2 rounded inline-block">Calculate</button>
+                <p class="m-2 font-semibold">Total Expense: <span id="expense"></span></p>
+                <p class="m-2 font-semibold">Balance:<span id="balance"></span></p>
+                <div class="">
+                    <label class=" " for="save">Save:
+                        <input class="bg-gray-200  border mb-2" type="text" name="" id="save"> %
+                    </label>
+                    <button id="save-btn" class="px-2 py-1 rounded bg-lime-200">Save</button>
+                    <p class="m-2 font-semibold">Saving Amount: <span id="saving-amount"></span></p>
+                    <p class="m-2 font-semibold">Remaining Balance:<span id="remaining-balance"></span></p>
+                    <p>hello</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="js/calculate.js"></script>
+
+</body>
+
+</html>
